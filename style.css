@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0; /* Light background for better contrast */
+}
+
+li, a, button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black; /* Default text color */
+    text-decoration: none; /* Remove underline from links */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+    background-color: white;
+    box-shadow: #333 0px 0px 1px; /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners for header */
+    padding: 30px 10%;
+
+}
+.logo{  
+    cursor: pointer; /* Change cursor to pointer for logo */
+    width: 70px; /* Set a fixed width for the logo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px;
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+
+}
+.nav-links{
+   list-style: none; /* Remove default list style */
+}
+.nav-links ul{
+   display: flex;
+    justify-content: center; /* Center links inside ul */
+    align-items: center; /* Center items vertically */
+    list-style: none; /* Remove default list style */
+    gap: 2rem; /* Space between links */
+}
+.nav-links ul li a{
+    color: black; /* Default link color */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding for better click area */
+    border-radius: 4px; /* Rounded corners for links */
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+.nav-links ul li a:hover{
+    background-color: #e0e0e0; /* Light gray background on hover */
+    color: #333; /* Darker text color on hover */
+}
+
+.nav-links ul li a.active{
+    background-color: #007bff; /* Blue background for active link */
+    color: white; /* White text for better contrast */
+}
+
+button{
+    background-color: #007bff; /* Blue background for buttons */
+    color: white; /* White text for better contrast */
+    border: none; /* Remove default border */
+    padding: 10px 20px; /* Add padding for better click area */
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+button:hover{
+    background-color: #0056b3; /* Darker blue on hover */
+}
