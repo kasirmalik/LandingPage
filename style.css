@@ -321,3 +321,12 @@ button:hover{
     text-decoration: none; /* Remove underline from links */
     transition: color 0.3s ease; /* Smooth color change on hover */
 }
+.social-links{
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    gap: 20px; /* Space between social links */
+    margin-top: 20px 0 20px 0; /* Space above the social links */
+    margin-bottom: 25px; /* Space below the social links */
+    list-style: none; /* Remove default list style */
+}
