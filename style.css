@@ -248,3 +248,76 @@ button:hover{
 /*     margin-inline: -1.5rem; */
   }
 }
+.top{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    background-color: #f0f0f0; /* Light background for better contrast */
+}
+.top h1{
+    font-size: 3rem; /* Larger font size for the top heading */
+    color: #f509cd; /* Dark text color for better contrast */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for better readability */
+    margin-bottom: 33px; /* Space below the heading */
+
+}
+.top p{
+    font-size: 1.2rem; /* Slightly larger font size for the top paragraph *
+    max-width: 600px; /* Limit width for better readability */
+    color: #555; /* Darker text color for better contrast */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for better readability */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+  
+}
+.top .form-btn{
+    margin-top: 20px; /* Space above the button */
+    padding: 7px 19px; /* Larger padding for a more prominent button */
+    font-size: 1.2rem; /* Larger font size for the button text */
+    background-color: #c332a6; /* Green background for the button */
+    color: white; /* White text for better contrast */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners for the button */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth background color change */
+}
+.top button:hover{
+    background-color: #218838; /* Darker green on hover */
+}
+.top input{
+    padding: 10px 20px; /* Padding for better click area */
+    border: 1px solid #ccc; /* Light border for input field */
+    border-radius: 4px; /* Rounded corners for input field */
+    font-size: 16px; /* Font size for input text */
+    width: 300px; /* Fixed width for input field */
+    margin-top: 20px; /* Space above the input field */
+    transition: border-color 0.3s ease; /* Smooth border color change on focus */
+}
+
+.bottom{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+    background-color: #f0f0f0; /* Light background for better contrast */
+    margin-bottom: 20px;
+}
+.bottom p{
+    font-size: 1.2rem; /* Slightly larger font size for the bottom paragraph */
+    color: #555; /* Darker text color for better contrast */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow for better readability */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+.bottom a{
+    color: #007bff; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth color change on hover */
+}
